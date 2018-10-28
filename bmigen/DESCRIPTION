@@ -1,0 +1,12 @@
+Package: bmigen
+Title: An individual history simulator for BMI, GERD onset age, and death
+Version: 0.0.0.9000
+Author: William D Hazelton
+Maintainer: William D Hazelton <hazelton@fredhutch.ort>
+Description: This is an R package that simulates individual histories of Body Mass Index (BMI), age at death, and onset age for symptomatic Gastro- esophageal Reflux Disease (GERD, defined as at-least-weekly symptioms of reflux or heartburn) for men and women of White and Black race.  Each individual history record includes, race, sex, birth-year, first BMI age, first calendar year, simulated GERD onset age, simulated age at death, number of annual BMI values simulated, followed by the annual BMI history.  The simulator covers ages 12-99, birthyears 1890-2000, and calendar years 1900-2030. Calibration to BMI is based on survey data for children and adults age 12-95 from the National Health and Nutrition Examination Surveys (NHANES). Data by sex and race were used to calculate and smooth BMI deciles using cross-sectional survey data from NHES (1959-62), NHANES-I (1971-74), NHANES-II (1976-80), NHANES-III (1988-93), continuous NHANES-A (A_1999-2000), NHANES-B (2001-02), NHANES-C (2003-04), NHANES-D (2005-06), NHANES-E (2007-08), NHANES-F (2009-10), NHANES-G (2011-12), NHANES-H (2013-14), and longitudinal-followup data beginning with NHANES- I (1971-74), with followup in NHEFS-1 (1982), NHEFS-2 (1986), NHEFS-3 (1987), and NHEFS-4 (1992). 
+Depends:
+    R (>= 3.2.2)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1.9000
